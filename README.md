@@ -137,9 +137,9 @@ Obtén tu compute capability en: https://docs.nvidia.com/cuda/cuda-c-programming
 
 ### Ejemplos
 
-#### Ejemplo 1: Fuerza bruta alfanumérica (6 caracteres)
+#### Ejemplo 1: Fuerza bruta alfanumérica (7 caracteres)
 ```bash
-./gpu_crack 482c811da5d5b4bc6d497ffa98491e38 6 alnum brute
+./gpu_crack cc03e747a6afbbcbf8be7668acfebee5 7 alnum brute
 ```
 
 **Salida esperada:**
@@ -149,11 +149,11 @@ Obtén tu compute capability en: https://docs.nvidia.com/cuda/cuda-c-programming
 ╚═════════════════════════════════════════════════════════╝
 
 [CONFIG]
-  Hash objetivo: 482c811da5d5b4bc6d497ffa98491e38
+  Hash objetivo: cc03e747a6afbbcbf8be7668acfebee5
   Modo: brute
-  Longitud: 6
+  Longitud: 7
   Alfabeto: alnum (tamaño: 62)
-  Espacio de búsqueda: 56800235584 candidatos
+  Espacio de búsqueda: 3521614606208 candidatos
 
 [GPU]
   Dispositivo: NVIDIA GeForce RTX 3050 Laptop GPU
@@ -194,16 +194,16 @@ Obtén tu compute capability en: https://docs.nvidia.com/cuda/cuda-c-programming
 
 #### Ejemplo 4: Modo diccionario
 ```bash
-./gpu_crack 482c811da5d5b4bc6d497ffa98491e38 0 alnum dict wordlist.txt
+./gpu_crack cc03e747a6afbbcbf8be7668acfebee5 0 alnum dict wordlist.txt
 ```
 
 #### Ejemplo 5: Comparación CPU vs GPU
 ```bash
 # CPU (lento, para hashes cortos)
-time ./secuencial 482c811da5d5b4bc6d497ffa98491e38 5 alnum
+time ./secuencial cc03e747a6afbbcbf8be7668acfebee5 7 alnum
 
 # GPU (rápido)
-time ./gpu_crack 482c811da5d5b4bc6d497ffa98491e38 5 alnum brute
+time ./gpu_crack cc03e747a6afbbcbf8be7668acfebee5 7 alnum brute
 ```
 
 ---
@@ -214,10 +214,10 @@ time ./gpu_crack 482c811da5d5b4bc6d497ffa98491e38 5 alnum brute
 ```bash
 # Crear un hash conocido
 echo -n "test123" | md5sum
-# Salida: 482c811da5d5b4bc6d497ffa98491e38
+# Salida: cc03e747a6afbbcbf8be7668acfebee5
 
 # Intentar crackearlo
-./gpu_crack 482c811da5d5b4bc6d497ffa98491e38 6 alnum brute
+./gpu_crack cc03e747a6afbbcbf8be7668acfebee5 7 alnum brute
 ```
 
 ### Script Python para generar hashes
