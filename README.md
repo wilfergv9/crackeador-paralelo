@@ -90,6 +90,8 @@ make gpu          # Solo CUDA
 make secuencial   # Solo CPU
 make clean        # Limpiar
 ```
+ 
+Nota: el `Makefile` detecta si `nvcc` (CUDA) está disponible. Si `nvcc` no está instalado, el objetivo por defecto hará un "fallback" y compilará únicamente la versión CPU (`secuencial`) para evitar fallos. Para forzar la compilación GPU en una máquina con CUDA, usa `make gpu`.
 
 #### Configurar para tu GPU
 El Makefile está configurado para `sm_61` (GeForce GTX 1050, RTX 2070, RTX 3050, etc.).
