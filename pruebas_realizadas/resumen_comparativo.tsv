@@ -1,7 +1,0 @@
-test_id	descripcion	alfabeto	longitud	tipo	cpu_mh_s	gpu_mh_s	speedup_gpu_vs_cpu	cpu_tiempo_s	gpu_tiempo_s
-T1	num len6 encontrado	num	6	encontrado	6.1452	1292.37	210.3	0.02	0.00
-T2	num len6 no_encontrado (hash de abcdef)	num	6	no_encontrado	7.2181	1315.47	182.2	0.14	0.00
-T3	lower len5 encontrado	lower	5	encontrado	7.6462	1732.79	226.6	0.85	0.01
-T4	lower len5 no_encontrado (hash de amigo1)	lower	5	no_encontrado	7.5846	1745.89	230.2	1.57	0.01
-T5	alnum len6 encontrado	alnum	6	encontrado	7.4256	1844.51	248.4	1.14	30.79
-T6	alnum len4 no_encontrado (hash de abcde)	alnum	4	no_encontrado	8.1654	1827.29	223.8	1.81	0.01

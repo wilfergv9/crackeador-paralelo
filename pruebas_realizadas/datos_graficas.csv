@@ -1,7 +1,0 @@
-test_id,descripcion,cpu_mh_mean,gpu_mh_mean,speedup_mh,cpu_time_mean_s,gpu_time_mean_s
-T1,num len6 encontrado,6.2767,1307.38,208.3,0.0200,0.0000
-T2,num len6 no_encontrado (hash de abcdef),7.2685,1299.17,178.7,0.1380,0.0000
-T3,lower len5 encontrado,7.6567,1737.02,226.9,0.8500,0.0100
-T4,lower len5 no_encontrado (hash de amigo1),7.6756,1735.60,226.1,1.5500,0.0100
-T5,alnum len6 encontrado,7.3714,1835.01,248.9,1.1500,30.9540
-T6,alnum len4 no_encontrado (hash de abcde),8.1346,1828.01,224.7,1.8180,0.0100
