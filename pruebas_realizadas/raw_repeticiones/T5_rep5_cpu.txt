@@ -1,0 +1,24 @@
+╔═════════════════════════════════════════════════════════╗
+║      MD5 Cracker - Implementación Secuencial CPU       ║
+╚═════════════════════════════════════════════════════════╝
+
+[CONFIG]
+  Hash objetivo: 6e7c381877a55d80afe68cb1e9bf1ad5
+  Longitud: 6
+  Alfabeto: alnum (tamaño: 62)
+  Espacio de búsqueda: 56800235584 candidatos
+
+[BÚSQUEDA]
+Procesando[BÚSQUEDA] Progreso: 0.0% | Intentos: 100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 400000[BÚSQUEDA] Progreso: 0.0% | Intentos: 500000[BÚSQUEDA] Progreso: 0.0% | Intentos: 600000[BÚSQUEDA] Progreso: 0.0% | Intentos: 700000[BÚSQUEDA] Progreso: 0.0% | Intentos: 800000[BÚSQUEDA] Progreso: 0.0% | Intentos: 900000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1000000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1400000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1500000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1600000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1700000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1800000[BÚSQUEDA] Progreso: 0.0% | Intentos: 1900000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2000000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2400000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2500000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2600000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2700000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2800000[BÚSQUEDA] Progreso: 0.0% | Intentos: 2900000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3000000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3400000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3500000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3600000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3700000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3800000[BÚSQUEDA] Progreso: 0.0% | Intentos: 3900000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4000000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4400000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4500000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4600000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4700000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4800000[BÚSQUEDA] Progreso: 0.0% | Intentos: 4900000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5000000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5400000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5500000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5600000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5700000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5800000[BÚSQUEDA] Progreso: 0.0% | Intentos: 5900000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6000000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6400000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6500000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6600000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6700000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6800000[BÚSQUEDA] Progreso: 0.0% | Intentos: 6900000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7000000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7400000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7500000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7600000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7700000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7800000[BÚSQUEDA] Progreso: 0.0% | Intentos: 7900000[BÚSQUEDA] Progreso: 0.0% | Intentos: 8000000[BÚSQUEDA] Progreso: 0.0% | Intentos: 8100000[BÚSQUEDA] Progreso: 0.0% | Intentos: 8200000[BÚSQUEDA] Progreso: 0.0% | Intentos: 8300000[BÚSQUEDA] Progreso: 0.0% | Intentos: 8400000[✓] ¡ENCONTRADO! Contraseña: zzzz00 
+
+
+╔═════════════════════════════════════════════════════════╗
+║                  ¡HASH CRACKEADO!                      ║
+╚═════════════════════════════════════════════════════════╝
+
+[RESULTADO]
+  Intentos: 8478226
+  Tiempo total: 1.14 segundos
+  Velocidad: 7435.26 kH/s (kilos hashes por segundo)
+  Velocidad: 7.4353 MH/s (millones hashes por segundo)
+

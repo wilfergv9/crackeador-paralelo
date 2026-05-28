@@ -1,0 +1,13 @@
+test_id	descripcion	alfabeto	longitud	tipo	password	hash	programa	encontrado	intentos	tiempo_s	mh_s
+T1	num len6 encontrado	num	6	encontrado	654321	c33367701511b4f6020ec61ded352059	CPU	si	123457	0.02	6.1452
+T1	num len6 encontrado	num	6	encontrado	654321	c33367701511b4f6020ec61ded352059	GPU	si	1000000	0.00	1292.37
+T2	num len6 no_encontrado (hash de abcdef)	num	6	no_encontrado	abcdef	e80b5017098950fc58aad83c8c14978e	CPU	no	1000000	0.14	7.2181
+T2	num len6 no_encontrado (hash de abcdef)	num	6	no_encontrado	abcdef	e80b5017098950fc58aad83c8c14978e	GPU	no	1000000	0.00	1315.47
+T3	lower len5 encontrado	lower	5	encontrado	amigo	d94729ce13f4ee6395bfc6f1080cc986	CPU	si	6508841	0.85	7.6462
+T3	lower len5 encontrado	lower	5	encontrado	amigo	d94729ce13f4ee6395bfc6f1080cc986	GPU	si	11881376	0.01	1732.79
+T4	lower len5 no_encontrado (hash de amigo1)	lower	5	no_encontrado	amigo1	6a0200fb6c5a16966766a660df7f5cde	CPU	no	11881376	1.57	7.5846
+T4	lower len5 no_encontrado (hash de amigo1)	lower	5	no_encontrado	amigo1	6a0200fb6c5a16966766a660df7f5cde	GPU	no	11881376	0.01	1745.89
+T5	alnum len6 encontrado	alnum	6	encontrado	zzzz00	6e7c381877a55d80afe68cb1e9bf1ad5	CPU	si	8478226	1.14	7.4256
+T5	alnum len6 encontrado	alnum	6	encontrado	zzzz00	6e7c381877a55d80afe68cb1e9bf1ad5	GPU	si	56800235776	30.79	1844.51
+T6	alnum len4 no_encontrado (hash de abcde)	alnum	4	no_encontrado	abcde	ab56b4d92b40713acc5af89985d4b786	CPU	no	14776336	1.81	8.1654
+T6	alnum len4 no_encontrado (hash de abcde)	alnum	4	no_encontrado	abcde	ab56b4d92b40713acc5af89985d4b786	GPU	no	14776336	0.01	1827.29

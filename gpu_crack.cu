@@ -93,7 +93,8 @@ __global__ void md5_crack_kernel(
     MD5State hash = md5_hash((unsigned char *)password, password_length);
     
     // Incrementar contador de intentos (para calcular MH/s)
-    atomicAdd(attempts_counter, 1);
+    // atomicAdd para 64-bit usa unsigned long long en device
+    atomicAdd((unsigned long long*)attempts_counter, 1ULL);
     
     // Comparar con target
     if (md5_equals(hash, target_A, target_B, target_C, target_D)) {

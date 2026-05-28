@@ -1,0 +1,56 @@
+% Graficas listas para incluir en LaTeX (requiere \usepackage{pgfplots})
+% Datos fuente: pruebas_realizadas/datos_graficas.csv
+% Fecha: 2026-05-25
+\pgfplotsset{compat=1.18}
+
+% Grafica 1: Throughput CPU vs GPU por escenario
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    width=0.95\linewidth,
+    height=7cm,
+    bar width=10pt,
+    ylabel={MH/s},
+    symbolic x coords={T1,T2,T3,T4,T5,T6},
+    xtick=data,
+    legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed,
+    enlarge x limits=0.12
+]
+\addplot table [x=test_id,y=cpu_mh_mean,col sep=comma] {datos_graficas.csv};
+\addplot table [x=test_id,y=gpu_mh_mean,col sep=comma] {datos_graficas.csv};
+\legend{CPU,GPU}
+\end{axis}
+\end{tikzpicture}
+\caption{Throughput promedio (MH/s) en CPU y GPU por escenario.}
+\label{fig:throughput_cpu_gpu}
+\end{figure}
+
+% Grafica 2: Speedup GPU/CPU por throughput
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    width=0.95\linewidth,
+    height=7cm,
+    bar width=12pt,
+    ylabel={Speedup (GPU/CPU)},
+    symbolic x coords={T1,T2,T3,T4,T5,T6},
+    xtick=data,
+    ymajorgrids=true,
+    grid style=dashed,
+    enlarge x limits=0.18
+]
+\addplot table [x=test_id,y=speedup_mh,col sep=comma] {datos_graficas.csv};
+\end{axis}
+\end{tikzpicture}
+\caption{Aceleracion de GPU respecto a CPU medida en MH/s.}
+\label{fig:speedup_gpu_cpu}
+\end{figure}
+
+% Nota:
+% Si compilas desde otro directorio, ajusta la ruta de datos_graficas.csv.

@@ -9,7 +9,8 @@ CXX := g++
 NVCC_AVAILABLE := $(shell command -v $(NVCC) >/dev/null 2>&1 && echo yes)
 
 # Banderas
-CUDA_CFLAGS := -std=c++17 -arch=sm_61 -gencode=arch=compute_61,code=sm_61 -O3
+CUDA_ARCH ?= 86
+CUDA_CFLAGS := -allow-unsupported-compiler -std=c++17 -gencode=arch=compute_$(CUDA_ARCH),code=sm_$(CUDA_ARCH) -O3
 CUDA_LDFLAGS := -lcuda -lcudart
 
 CXX_CFLAGS := -std=c++17 -O3 -march=native
@@ -78,8 +79,8 @@ help:
 	@echo "  - g++ con soporte C++17"
 	@echo ""
 	@echo "Compute Capability:"
-	@echo "  - Configurado para sm_61 (GeForce 10 series en adelante)"
-	@echo "  - Actualiza -arch=sm_XX si tienes GPU más antigua"
+	@echo "  - Configurable via `CUDA_ARCH` (por defecto: sm_86)"
+	@echo "  - Para compilar para otra arquitectura, ejecuta: `make gpu CUDA_ARCH=75`"
 	@echo ""
 
 .SILENT: help

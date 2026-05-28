@@ -143,7 +143,7 @@ int main(int argc, char **argv) {
         // Comparar con target
         if (md5_equals(hash, target_A, target_B, target_C, target_D)) {
             found = true;
-            printf("\r[✓] ¡ENCONTRADO! Contraseña: %s\n", password);
+            printf("\r[✓] ¡ENCONTRADO! Contraseña: %s \n", password);
             break;
         }
         

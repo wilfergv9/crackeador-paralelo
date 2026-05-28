@@ -1,0 +1,23 @@
+╔═════════════════════════════════════════════════════════╗
+║      MD5 Cracker - Implementación Secuencial CPU       ║
+╚═════════════════════════════════════════════════════════╝
+
+[CONFIG]
+  Hash objetivo: e80b5017098950fc58aad83c8c14978e
+  Longitud: 6
+  Alfabeto: num (tamaño: 10)
+  Espacio de búsqueda: 1000000 candidatos
+
+[BÚSQUEDA]
+Procesando[BÚSQUEDA] Progreso: 10.0% | Intentos: 100000[BÚSQUEDA] Progreso: 20.0% | Intentos: 200000[BÚSQUEDA] Progreso: 30.0% | Intentos: 300000[BÚSQUEDA] Progreso: 40.0% | Intentos: 400000[BÚSQUEDA] Progreso: 50.0% | Intentos: 500000[BÚSQUEDA] Progreso: 60.0% | Intentos: 600000[BÚSQUEDA] Progreso: 70.0% | Intentos: 700000[BÚSQUEDA] Progreso: 80.0% | Intentos: 800000[BÚSQUEDA] Progreso: 90.0% | Intentos: 900000[BÚSQUEDA] Progreso: 100.0% | Intentos: 1000000
+
+╔═════════════════════════════════════════════════════════╗
+║                    NO ENCONTRADO                      ║
+╚═════════════════════════════════════════════════════════╝
+
+[RESULTADO]
+  Intentos: 1000000
+  Tiempo total: 0.14 segundos
+  Velocidad: 7258.17 kH/s (kilos hashes por segundo)
+  Velocidad: 7.2582 MH/s (millones hashes por segundo)
+

@@ -1,0 +1,13 @@
+test_id	descripcion	alfabeto	longitud	tipo	programa	n	attempts_mean	attempts_std	time_mean_s	time_std_s	mh_mean	mh_std
+T4	lower len5 no_encontrado (hash de amigo1)	lower	5	no_encontrado	GPU	5	11881376.00	0.00	0.0100	0.0000	1735.6000	10.3604
+T5	alnum len6 encontrado	alnum	6	encontrado	GPU	5	56800235776.00	0.00	30.9540	0.0709	1835.0100	4.2213
+T3	lower len5 encontrado	lower	5	encontrado	GPU	5	11881376.00	0.00	0.0100	0.0000	1737.0200	9.1584
+T1	num len6 encontrado	num	6	encontrado	GPU	5	1000000.00	0.00	0.0000	0.0000	1307.3840	13.0954
+T6	alnum len4 no_encontrado (hash de abcde)	alnum	4	no_encontrado	GPU	5	14776336.00	0.00	0.0100	0.0000	1828.0120	2.9266
+T2	num len6 no_encontrado (hash de abcdef)	num	6	no_encontrado	GPU	5	1000000.00	0.00	0.0000	0.0000	1299.1740	9.8563
+T4	lower len5 no_encontrado (hash de amigo1)	lower	5	no_encontrado	CPU	5	11881376.00	0.00	1.5500	0.0063	7.6756	0.0353
+T5	alnum len6 encontrado	alnum	6	encontrado	CPU	5	8478226.00	0.00	1.1500	0.0126	7.3714	0.0807
+T3	lower len5 encontrado	lower	5	encontrado	CPU	5	6508841.00	0.00	0.8500	0.0000	7.6567	0.0255
+T1	num len6 encontrado	num	6	encontrado	CPU	5	123457.00	0.00	0.0200	0.0000	6.2767	0.4875
+T6	alnum len4 no_encontrado (hash de abcde)	alnum	4	no_encontrado	CPU	5	14776336.00	0.00	1.8180	0.0098	8.1346	0.0462
+T2	num len6 no_encontrado (hash de abcdef)	num	6	no_encontrado	CPU	5	1000000.00	0.00	0.1380	0.0040	7.2685	0.1439

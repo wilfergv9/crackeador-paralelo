@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\geometry{margin=2.2cm}
+\pgfplotsset{compat=1.18}
+
+\title{Resultados de Pruebas: GPU MD5 Cracker}
+\date{25 de mayo de 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Tabla Comparativa Estadistica}
+\input{tabla_resultados.tex}
+
+\section*{Casos de prueba}
+Los siguientes casos de prueba y sus valores (password/hash) fueron usados en las mediciones:
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{l l l}
+\toprule
+ID & Password & Hash \\
+\midrule
+T1 & \texttt{654321} & \texttt{c33367701511b4f6020ec61ded352059} \\
+T2 & \texttt{abcdef} & \texttt{e80b5017098950fc58aad83c8c14978e} \\
+T3 & \texttt{amigo} & \texttt{d94729ce13f4ee6395bfc6f1080cc986} \\
+T4 & \texttt{amigo1} & \texttt{6a0200fb6c5a16966766a660df7f5cde} \\
+T5 & \texttt{zzzz00} & \texttt{6e7c381877a55d80afe68cb1e9bf1ad5} \\
+T6 & \texttt{abcde} & \texttt{ab56b4d92b40713acc5af89985d4b786} \\
+\bottomrule
+\end{tabular}
+\caption{Mapeo de casos de prueba → password / hash utilizado en las ejecuciones.}
+\end{table}
+
+\section*{Graficas}
+\input{graficas_pgfplots.tex}
+
+\end{document}
